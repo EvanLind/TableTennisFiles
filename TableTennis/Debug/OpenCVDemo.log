@@ -1,17 +1,23 @@
-﻿生成启动时间为 2015/8/16 11:20:00。
-     1>项目“E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\OpenCVDemo.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2015/8/18 16:15:16。
+     1>项目“E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\OpenCVDemo.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenCVDemo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TableTennis.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TableTennis.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TableTennis.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Usart.cpp
+         Usart.cpp
+     1>e:\evan lin\club\pingpong\opencv\tabletennisfiles\tabletennis\usart.cpp(1): warning C4627: “#include "Usart.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
          main.cpp
-     1>e:\evan lin\club\pingpong\opencv\test\tabletennisfiles\tabletennis\main.cpp(144): warning C4305: “参数”: 从“double”到“FLOAT”截断
+     1>e:\evan lin\club\pingpong\opencv\tabletennisfiles\tabletennis\main.cpp(142): warning C4305: “参数”: 从“double”到“FLOAT”截断
+         正在生成代码...
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\Debug\TableTennis.exe" /INCREMENTAL /NOLOGO /LIBPATH:Lib CGDEVSDK.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\Debug\TableTennis.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\Debug\TableTennis.lib" /MACHINE:X86 Debug\main.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\Debug\TableTennis.exe" /INCREMENTAL /NOLOGO /LIBPATH:Lib CGDEVSDK.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\Debug\TableTennis.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\Debug\TableTennis.lib" /MACHINE:X86 Debug\main.obj
          Debug\stdafx.obj
          Debug\Usart.obj
-         OpenCVDemo.vcxproj -> E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\Debug\TableTennis.exe
-     1>已完成生成项目“E:\Evan Lin\CLUB\PingPong\OPENCV\Test\TableTennisFiles\TableTennis\OpenCVDemo.vcxproj”(Build 个目标)的操作。
+         OpenCVDemo.vcxproj -> E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\Debug\TableTennis.exe
+     1>已完成生成项目“E:\Evan Lin\CLUB\PingPong\OPENCV\TableTennisFiles\TableTennis\OpenCVDemo.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.35
+已用时间 00:00:01.99
